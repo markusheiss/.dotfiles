@@ -1,0 +1,16 @@
+Xft.dpi:    164
+Xft.antialias:  1
+Xft.hinting:    1
+Xft.hintstyle:  hintmedium
+
+URxvt.termName: rxvt
+URxvt*depth: 32
+URxvt.transparent: false
+URxvt.font: xft:Iosevka:size=20
+URxvt.scrollBar: false
+URxvt.iconFile: .rexim/icons/terminal-icon.png
+
+
+URxvt.perl-ext-common:  resize-font,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
