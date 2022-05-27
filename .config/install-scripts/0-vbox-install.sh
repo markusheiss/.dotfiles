@@ -1,8 +1,8 @@
 #!/bin/bash
 
-apt install \
-	bzip2 \
-	tar
+apt install -y \
+	 bzip2 \
+	 tar
 
 mount /dev/sr0 /media/cdrom
 /media/cdrom/VBoxLinuxAdditions.run
