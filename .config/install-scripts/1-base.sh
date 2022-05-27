@@ -1,12 +1,14 @@
 #!/bin/bash
 
+apt update
+apt full-upgrade -y
+apt autoremove -y
+
 apt install -y \
     lightdm \
     i3 \
     zip \
     unzip \
-    tar \
-    bzip2 \
     emacs \
     ripgrep \
     fd-find \
@@ -25,3 +27,5 @@ apt install -y \
     arc-theme \
     firefox-esr \
     xarchiver
+
+apt autoremove
