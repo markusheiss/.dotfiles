@@ -32,7 +32,9 @@ sudo apt install -y \
     shellcheck \
     black \
     isort \
-    glslang-tools
+    glslang-tools \
+    man \
+    pcmanfm
 
 sudo apt autoremove
 
