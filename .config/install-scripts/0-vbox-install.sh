@@ -1,10 +1,10 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
-apt install -y \
+sudo apt install -y \
 	 bzip2 \
 	 tar
 
-mount /dev/sr0 /media/cdrom
-/media/cdrom/VBoxLinuxAdditions.run
-usermod -aG vboxsf markus
-reboot
+sudo mount /dev/sr0 /media/cdrom
+sudo /media/cdrom/VBoxLinuxAdditions.run
+sudo usermod -aG vboxsf markus
+sudo reboot

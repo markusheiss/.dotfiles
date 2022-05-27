@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-apt update
-apt full-upgrade -y
-apt autoremove -y
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt autoremove -y
 
-apt install -y \
+sudo apt install -y \
     lightdm \
     i3 \
     zip \
@@ -31,9 +31,9 @@ apt install -y \
     tidy \
     shellcheck \
     black \
-    isort \
-    glslang-tools
+    isort
 
-apt autoremove
+sudo apt autoremove
+
 
 reboot

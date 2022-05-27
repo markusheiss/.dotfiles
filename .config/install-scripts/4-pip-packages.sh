@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-pip install \
+sudo pip install \
