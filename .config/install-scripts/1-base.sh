@@ -36,4 +36,4 @@ sudo apt install -y \
 sudo apt autoremove
 
 
-reboot
+sudo reboot
