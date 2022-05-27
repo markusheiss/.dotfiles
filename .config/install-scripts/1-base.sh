@@ -16,7 +16,7 @@ apt install -y \
     gdb \
     libvterm-dev \
     htop \
-    pip \
+    python3-pip \
     nodejs \
     npm \
     lxappearance \
