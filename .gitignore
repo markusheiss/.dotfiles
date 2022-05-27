@@ -1,1 +1,4 @@
 .uuid
+.config/gtk-3.0/
+.config/libfm/
+.config/pulse
