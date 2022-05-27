@@ -34,7 +34,11 @@ sudo apt install -y \
     isort \
     glslang-tools \
     man \
-    pcmanfm
+    pcmanfm \
+    nitrogen \
+    manpages \
+    evince \
+    curl
 
 sudo apt autoremove
 
