@@ -22,7 +22,7 @@ alias upg="sudo apt upgrade"
 
 alias run="./a.out"
 
-alias emacs="emacsclient -c -a 'emacs'"
+#alias emacs="emacsclient -c -a 'emacs'"
 alias emacst="emacsclient -c -t -a 'emacs'"
 
 alias obsidian="~/Apps/Obsidian-0.14.6.AppImage &"
