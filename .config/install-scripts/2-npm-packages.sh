@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/bin/env bash
 
 npm install -g \
-	live-server
+	live-server \
+	js-beautify \
+	stylelint \
+	marked

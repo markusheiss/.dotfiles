@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 apt update
 apt full-upgrade -y
@@ -27,7 +27,11 @@ apt install -y \
     arc-theme \
     firefox-esr \
     xarchiver \
-    terminator
+    terminator \
+    tidy \
+    shellcheck \
+    black \
+    isort
 
 apt autoremove
 
