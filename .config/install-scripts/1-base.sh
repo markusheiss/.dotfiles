@@ -26,6 +26,9 @@ apt install -y \
     alsa-utils \
     arc-theme \
     firefox-esr \
-    xarchiver
+    xarchiver \
+    terminator
 
 apt autoremove
+
+reboot
