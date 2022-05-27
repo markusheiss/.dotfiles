@@ -31,7 +31,8 @@ sudo apt install -y \
     tidy \
     shellcheck \
     black \
-    isort
+    isort \
+    glslang-tools
 
 sudo apt autoremove
 

@@ -3,4 +3,5 @@
 sudo npm install -g \
 	live-server \
 	js-beautify \
-	stylelint
+	stylelint \
+	marked
