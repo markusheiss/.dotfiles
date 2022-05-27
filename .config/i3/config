@@ -213,7 +213,7 @@ bar {
 bindsym $mod+b exec firefox
 bindsym $mod+t exec emacsclient -c -a 'emacs'
 bindsym $mod+f exec pcmanfm
-bindsym $mod+o exec ~/Apps/Obsidian-0.14.6.AppImage
+bindsym $mod+o exec ~/apps/Obsidian-0.14.6.AppImage
 
 # Autostart programs
 exec nitrogen --restore
