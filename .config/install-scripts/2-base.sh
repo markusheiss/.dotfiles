@@ -38,7 +38,8 @@ sudo apt install -y \
     nitrogen \
     manpages \
     evince \
-    curl
+    curl \
+    ranger
 
 sudo apt autoremove
 
