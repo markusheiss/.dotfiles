@@ -1,6 +1,0 @@
-[user]
-	name = Markus
-[init]
-	defaultBranch = main
-[credential]
-	helper = store

@@ -12,7 +12,6 @@ alias c="clear"
 alias l="ls -l"
 alias la="ls -la"
 
-
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown now"
 
@@ -22,7 +21,7 @@ alias upg="sudo apt upgrade"
 
 alias run="./a.out"
 
-#alias emacs="emacsclient -c -a 'emacs'"
+alias emacs="emacsclient -c -a 'emacs'"
 alias emacst="emacsclient -c -t -a 'emacs'"
 
 alias obsidian="~/apps/Obsidian-0.14.6.AppImage &"
