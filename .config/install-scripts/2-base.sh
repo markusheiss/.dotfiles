@@ -26,7 +26,6 @@ sudo apt install -y \
     alsa-utils \
     arc-theme \
     firefox-esr \
-    xarchiver \
     terminator \
     tidy \
     shellcheck \
@@ -34,7 +33,6 @@ sudo apt install -y \
     isort \
     glslang-tools \
     man \
-    pcmanfm \
     nitrogen \
     manpages \
     evince \
