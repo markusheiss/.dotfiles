@@ -9,8 +9,9 @@ alias mdpi="xrdb -merge ~/.Xresources"
 #### Shortcuts
 
 alias c="clear"
-alias l="ls -l"
-alias la="ls -la"
+alias ls="exa"
+alias l="exa -l"
+alias la="exa -la"
 
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown now"
