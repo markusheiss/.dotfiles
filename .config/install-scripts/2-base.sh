@@ -32,7 +32,6 @@ sudo apt install -y \
     black \
     isort \
     glslang-tools \
-    man \
     nitrogen \
     manpages \
     evince \
