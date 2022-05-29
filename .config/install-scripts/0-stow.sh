@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-cd .dotfiles
+cp -r ~/.dotfiles ~/.dotfiles_backup
+cd ~/.dotfiles
 stow . --adopt
-cd ..
+cd 
 rm -rf .dotfiles
-git clone https://github.com/markusheiss/.dotfiles.git
+mv ~/.dotfiles_backup ~/.dotfiles
 cd .dotfiles
 stow .
