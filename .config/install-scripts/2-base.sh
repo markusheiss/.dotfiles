@@ -7,6 +7,7 @@ sudo apt autoremove -y
 sudo apt install -y \
     lightdm \
     xmonad \
+    xmobar \
     x11-xserver-utils \
     zip \
     unzip \
