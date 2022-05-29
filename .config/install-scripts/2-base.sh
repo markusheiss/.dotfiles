@@ -38,7 +38,8 @@ sudo apt install -y \
     manpages \
     evince \
     curl \
-    ranger
+    ranger \
+    xterm
 
 sudo apt autoremove
 
