@@ -4,6 +4,7 @@
 
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export PATH="$HOME/.local/share/applications:$PATH"
+export PATH="/snap/bin/:$PATH"
 
 # If not running interactively, don't do anything
 case $- in

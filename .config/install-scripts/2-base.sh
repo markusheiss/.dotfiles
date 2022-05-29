@@ -10,7 +10,6 @@ sudo apt install -y \
     x11-xserver-utils \
     zip \
     unzip \
-    emacs \
     ripgrep \
     fd-find \
     git \
