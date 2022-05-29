@@ -37,6 +37,7 @@ sudo apt install -y \
     manpages \
     evince \
     curl \
+    wget \
     ranger \
     xterm \ 
     terminator
