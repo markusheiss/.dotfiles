@@ -1,5 +1,3 @@
 .gitconfig
 .uuid
-.config/*
-.local/share/*
 .DS_Store
