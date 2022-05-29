@@ -38,7 +38,7 @@ sudo apt install -y \
     curl \
     wget \
     ranger \
-    xterm \ 
+    xterm \
     terminator \
     dmenu \
     exa \
