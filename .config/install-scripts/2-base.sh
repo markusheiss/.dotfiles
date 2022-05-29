@@ -27,7 +27,6 @@ sudo apt install -y \
     alsa-utils \
     arc-theme \
     firefox-esr \
-    terminator \
     tidy \
     shellcheck \
     black \
@@ -39,7 +38,8 @@ sudo apt install -y \
     evince \
     curl \
     ranger \
-    xterm
+    xterm \ 
+    terminator
 
 sudo apt autoremove
 
