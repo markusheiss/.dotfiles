@@ -6,5 +6,6 @@ stow . --adopt
 cd 
 rm -rf .dotfiles
 mv ~/.dotfiles_backup ~/.dotfiles
-cd .dotfiles
+cd ~/.dotfiles
 stow .
+rm -rf ~/.dotfiles_backup
