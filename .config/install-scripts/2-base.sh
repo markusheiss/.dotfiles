@@ -6,7 +6,8 @@ sudo apt autoremove -y
 
 sudo apt install -y \
     lightdm \
-    i3 \
+    xmonad \
+    libghc6-xmonad-dev \
     zip \
     unzip \
     emacs \
