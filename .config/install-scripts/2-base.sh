@@ -41,7 +41,8 @@ sudo apt install -y \
     xterm \ 
     terminator \
     dmenu \
-    exa 
+    exa \
+    polybar
 
 sudo apt autoremove
 
