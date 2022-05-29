@@ -32,7 +32,6 @@ sudo apt install -y \
     black \
     isort \
     glslang-tools \
-    man \
     nitrogen \
     manpages \
     evince \
@@ -42,7 +41,8 @@ sudo apt install -y \
     xterm \ 
     terminator \
     dmenu \
-    exa 
+    exa \
+    polybar
 
 sudo apt autoremove
 
