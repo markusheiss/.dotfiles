@@ -40,7 +40,9 @@ sudo apt install -y \
     wget \
     ranger \
     xterm \ 
-    terminator
+    terminator \
+    dmenu \
+    exa 
 
 sudo apt autoremove
 
