@@ -42,7 +42,8 @@ sudo apt install -y \
     terminator \
     dmenu \
     exa \
-    polybar
+    polybar \
+    emacs
 
 sudo apt autoremove
 

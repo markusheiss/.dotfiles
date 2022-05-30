@@ -1,3 +1,8 @@
 .gitconfig
 .uuid
 .DS_Store
+.config/htop
+.config/geany
+.config/gtk-2.0
+.config/pulse
+.local/share/recently-used.xbel

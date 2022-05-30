@@ -22,17 +22,6 @@
 (package! evil-tutor)
 (package! org-board)
 (package! org-web-tools)
-(package! rainbow-mode)
-(package! request)
-(package! resize-window)
-(package! s)
-(package! tldr)
-(package! wc-mode)
-(package! beacon)
-(package! clippy)
-(package! minimap)
-(package! olivetti)
-
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
