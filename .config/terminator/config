@@ -1,6 +1,8 @@
 [global_config]
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
 [keybindings]
+  copy = <Primary>c
+  paste = <Primary>v
 [profiles]
   [[default]]
     background_color = "#2E3440"
@@ -8,6 +10,8 @@
     font = Iosevka Term 10
     foreground_color = "#D8DEE9"
     show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
     palette = "#3b4252:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#88c0d0:#e5e9f0:#4c566a:#bf616a:#a3be8c:#ebcb8b:#81a1c1:#b48ead:#8fbcbb:#eceff4"
     use_system_font = False
 [layouts]

@@ -40,10 +40,15 @@ sudo apt install -y \
     ranger \
     xterm \
     terminator \
-    dmenu \
     exa \
     polybar \
-    emacs
+    emacs \
+    neofetch \
+    picom \
+    conky \
+    zsh \
+    zathura \
+    rofi
 
 sudo apt autoremove
 
