@@ -85,7 +85,7 @@ myEditor = "emacsclient -c -a 'emacs' "  -- Sets emacs as editor
 -- myEditor = myTerminal ++ " -e vim "    -- Sets vim as editor
 
 myBorderWidth :: Dimension
-myBorderWidth = 2
+myBorderWidth = 4
 
 myModMask :: KeyMask
 myModMask       = mod4Mask 
