@@ -86,10 +86,8 @@
 (key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
 (key-chord-mode 1)
 
+(key-chord-define evil-insert-state-map ";a" "()\C-b")
+(key-chord-define evil-insert-state-map ";s" "{}\C-b")
+(key-chord-define evil-insert-state-map ";d" "[]\C-b")
 
-(setq key-chord-two-keys-delay 0.5)
-;;(key-chord-define evil-insert-state-map "#q" (lambda () (interactive) (insert "[]"))
-(key-chord-mode 1)
-
-evil-define-key 'insert custom-mode-map
-  (kbd "#-q") (lambda () (insert "()")))
+(global-set-key (kbd "s-x") 'execute-extended-command)
