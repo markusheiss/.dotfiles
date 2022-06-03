@@ -1,1 +1,7 @@
 :q
+:o
+:open /home/markus/data/gdrive
+:open /home/markus/data/icloud
+:open /home/markus/data/gdrive/dev/learning/books/python-crash-course/
+:! ls
+:open

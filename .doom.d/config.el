@@ -21,7 +21,7 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 
-(setq doom-font (font-spec :family "Iosevka" :size 26 :weight 'regular)
+(setq doom-font (font-spec :family "Iosevka" :size 24 :weight 'regular)
       doom-variable-pitch-font (font-spec :family "Iosevka" :size 22))
 
 
@@ -79,3 +79,17 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+;;(define-key evil-insert-state-map (kbd "j-j") 'evil-force-normal-state)
+
+;;Exit insert mode by pressing j and then j quickly
+(setq key-chord-two-keys-delay 0.5)
+(key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
+(key-chord-mode 1)
+
+
+(setq key-chord-two-keys-delay 0.5)
+;;(key-chord-define evil-insert-state-map "#q" (lambda () (interactive) (insert "[]"))
+(key-chord-mode 1)
+
+evil-define-key 'insert custom-mode-map
+  (kbd "#-q") (lambda () (insert "()")))

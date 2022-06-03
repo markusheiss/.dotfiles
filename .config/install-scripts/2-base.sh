@@ -4,6 +4,10 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 
+# add Spotify repo
+curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+
 sudo apt install -y \
     lightdm \
     i3 \
@@ -47,9 +51,15 @@ sudo apt install -y \
     conky \
     zsh \
     zathura \
-    rofi
+    rofi \
+    mesa-utils \
+    texlive-latex-base \
+    texlive-latex-extra \
+    neovim \
+    spotify-client
 
 sudo apt autoremove
+
 
 rm -rf ~/.emacs.d
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d

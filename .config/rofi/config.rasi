@@ -5,7 +5,7 @@ configuration {
   font: "Iosevka 20";
   modi: "window,run,drun";
   show-icons: true;
-  icon-theme: "Papirus";
+  icon-theme: "Papirus-Dark";
 }
 
 
