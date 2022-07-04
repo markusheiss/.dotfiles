@@ -4,14 +4,7 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
 
-# add Spotify repo
-curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-
 sudo apt install -y \
-    lightdm \
-    i3 \
-    x11-xserver-utils \
     zip \
     unzip \
     ripgrep \
@@ -25,39 +18,20 @@ sudo apt install -y \
     python3-pip \
     nodejs \
     npm \
-    lxappearance \
-    pavucontrol \
-    alsa-utils \
-    arc-theme \
-    firefox-esr \
     tidy \
     shellcheck \
     black \
     isort \
     glslang-tools \
-    nitrogen \
     manpages \
-    evince \
     curl \
     wget \
     ranger \
-    xterm \
-    terminator \
     exa \
-    polybar \
     emacs \
     neofetch \
-    picom \
-    conky \
     zsh \
-    zathura \
-    rofi \
-    mesa-utils \
-    texlive-latex-base \
-    texlive-latex-extra \
-    neovim \
-    spotify-client
-
+    
 sudo apt autoremove
 
 
