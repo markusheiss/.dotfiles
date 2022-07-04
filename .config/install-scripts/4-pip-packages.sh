@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
 sudo pip install \
-    requests
+    requests \
+    jupyterlab \
+    notebook
